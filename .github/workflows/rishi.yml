@@ -69,4 +69,4 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push Docker Image
-        run: docker push rishi0103/boardgame:latest
+        run: docker push rishi0118/gihubaction:latest
