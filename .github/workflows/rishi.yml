@@ -64,7 +64,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Push Docker Image
-        run: docker push adijaiswal/boardgame:latest
+        run: docker push rishi0103/boardgame:latest
 
       - name: Update dependency graph
         uses: advanced-security/maven-dependency-submission-action@v4
