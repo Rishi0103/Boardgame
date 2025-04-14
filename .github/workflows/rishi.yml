@@ -60,7 +60,7 @@ jobs:
         run: docker build -t rishi0118/gihubaction:latest .
 
       - name: Trivy Image Scan
-        run: trivy image --format table -o trivy-image-report.html adijaiswal/boardgame:latest
+        run: trivy image --format table -o trivy-image-report.html rishi0118/gihubaction:latest
 
       - name: Login to Docker Hub
         uses: docker/login-action@v3
